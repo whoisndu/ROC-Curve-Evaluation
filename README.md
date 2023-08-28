@@ -27,7 +27,7 @@ from sklearn.metrics import roc_curve, auc
 This step involves generating a synthetic dataset with random values to construct an ROC curve. The dataset includes two columns: 'probability' representing predicted event probabilities and 'actual_label' denoting actual binary labels. This synthetic data serves as the foundation for building the ROC curve.
 
 ### Step 3: Loading Synthetic Data into a Data Frame
-The synthetic data is loaded from a CSV file into a Pandas data frame. This data frame format allows efficient data manipulation and analysis. The first ten rows of the data frame are displayed using the .head(10) method.
+The synthetic data is loaded into a Pandas data frame from a CSV file. This data frame format allows efficient data manipulation and analysis. The first ten rows of the data frame are displayed using the .head(10) method.
 
 ### Step 4: Visualizing Data Distribution and Overlapping
 A scatter plot is created to visualize the relationship between 'probability' values and 'actual_label' outcomes. The plot highlights the challenge of finding a clear separation threshold due to overlapping data points. This observation emphasizes the need for sophisticated classification techniques.
